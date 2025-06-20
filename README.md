@@ -3,9 +3,6 @@
 
 This app is intended to be a simple example of a CRUD app built with **Ruby on Rails** and **React.js** using **Webpacker**.
 
-https://github.com/zayneio/open-flights/assets/37857673/489827d5-f142-4064-ba00-48e194acf2c7
-
-
 ---
 
 ## Running it locally
@@ -117,9 +114,9 @@ mutation {
 
 ---
 
-## How to rebuild this app from scratch (*WORK IN PROGRESS)
+## How to rebuild this app from scratch
 
-For an up to date, full step-by-step guide on how to rebuild this app from scratch, check out [this article I've put together.](https://zayne.io/articles/how-to-build-a-crud-app-with-ruby-on-rails-and-react)
+For an up to date, full step-by-step guide on how to rebuild this app from scratch.
 
 ### Getting Started: Creating a New Rails App With React & Webpacker
 First things first, let's create a brand new rails app. We can do this from the command line by doing `rails new app-name` where app-name is the name of our app, however we are going to add a few additional things. We need to add `--webpack=react` to configure our new app with webpacker to use react, and additionally I'm going to add `--database=postgresql` to configure my app to use postgres as the default database. so the final output to create our new app will look like this:
